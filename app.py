@@ -20,6 +20,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
 
+# Create a context processor
 @app.context_processor
 def inject_common_variables():
     return inject_current_date()
