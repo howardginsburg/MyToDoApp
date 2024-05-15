@@ -1,1 +1,3 @@
 # MyToDoApp
+
+some generic stuff
